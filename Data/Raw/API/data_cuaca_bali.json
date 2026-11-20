@@ -1,0 +1,53 @@
+{
+    "latitude": -8.681898,
+    "longitude": 115.193794,
+    "generationtime_ms": 0.0673532485961914,
+    "utc_offset_seconds": 28800,
+    "timezone": "Asia/Makassar",
+    "timezone_abbreviation": "GMT+8",
+    "elevation": 36.0,
+    "daily_units": {
+        "time": "iso8601",
+        "temperature_2m_max": "\u00b0C",
+        "temperature_2m_min": "\u00b0C",
+        "precipitation_sum": "mm"
+    },
+    "daily": {
+        "time": [
+            "2026-11-20",
+            "2026-11-21",
+            "2026-11-22",
+            "2026-11-23",
+            "2026-11-24",
+            "2026-11-25",
+            "2026-11-26"
+        ],
+        "temperature_2m_max": [
+            29.1,
+            28.7,
+            29.5,
+            29.2,
+            30.0,
+            29.9,
+            29.8
+        ],
+        "temperature_2m_min": [
+            24.3,
+            24.4,
+            23.5,
+            23.6,
+            25.0,
+            24.8,
+            23.8
+        ],
+        "precipitation_sum": [
+            16.6,
+            6.7,
+            10.4,
+            13.3,
+            4.3,
+            5.1,
+            9.0
+        ]
+    }
+}
