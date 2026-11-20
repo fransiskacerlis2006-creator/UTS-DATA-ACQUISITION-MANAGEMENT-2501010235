@@ -1,0 +1,5 @@
+Nama_File,Sumber,URL,Tanggal_Akses,Lisensi,MD5
+2024-DATA-DTW-update-sesuai-SK-1.xlsx,Dinas Pariwisata Provinsi Bali,https://disparda.baliprov.go.id/,2026-11-20,Belum ditemukan informasi lisensi resmi,6199ac8846b223f4c1fa85e88ea5759e
+data_cuaca_bali_31hari.json,Open-Meteo Archive API,https://archive-api.open-meteo.com/v1/archive,2026-11-20,CC BY 4.0 - Open-Meteo,02e22345a3fcd20be2aeed66ea4e651e
+data_wisata_badung_scraping.csv,Dinas Pariwisata Provinsi Bali,https://disparda.baliprov.go.id/badung,2026-11-20,Belum ditemukan informasi lisensi resmi,eab51a02932895643a201eadb533f00c
+data_wisata_gabungan.csv,Hasil penggabungan Download dan Scraping,Hasil pengolahan Google Colab,2026-11-20,Hasil olahan dari sumber Download dan Scraping,99f5c8941020990fb95a71f2e6839ba1
