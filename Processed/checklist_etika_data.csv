@@ -1,0 +1,10 @@
+No,Aspek,Keterangan
+1,Sumber data,Sumber data dicatat
+2,Izin penggunaan,Perlu verifikasi ketentuan situs
+3,Lisensi data,Lisensi sumber pariwisata belum ditemukan
+4,Data pribadi,Tidak ditemukan data pribadi
+5,Data sensitif,Tidak ditemukan data sensitif
+6,Tujuan penggunaan,Untuk keperluan akademik
+7,Atribusi sumber,Sumber dicantumkan
+8,Keamanan data,File disimpan di Google Colab dan GitHub
+9,Akurasi data,Data diperiksa dari nilai kosong dan duplikat
