@@ -2,10 +2,10 @@
 
 ## Identitas Mahasiswa
 
-- **Nama:** Fransiska C. Oda
+- **Nama:** Fransiska Cerlis Oda
 - **Program Studi:** Informatika
 - **Angkatan:** 2025
-- **Semester:** 2
+- **Semester:*3*
 
 ## Judul Proyek
 
