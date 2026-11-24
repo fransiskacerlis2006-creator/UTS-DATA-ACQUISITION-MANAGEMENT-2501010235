@@ -16,7 +16,7 @@ Proyek ini bertujuan untuk melakukan pengumpulan, pembersihan, pengolahan, dan p
 
 ### 2. Sumber Data
 - **Download:** [Data Daya Tarik Wisata Bali tahun 2024 dari Dinas Pariwisata Provinsi Bali.](https://disparda.baliprov.go.id/?utm_source=chatgpt.com)
-- **API:** [Data cuaca Bali dari Open-Meteo Archive API.](https://archive-api.open-meteo.com/v1/archive)
+- **API:**https://archive-api.open-meteo.com/v1/archive?latitude=-8.65&longitude=115.22&start_date=2026-10-01&end_date=2026-10-31&daily=temperature_2m_max,temperature_2m_min,precipitation_sum&timezone=Asia%2FMakassar&utm_source=chatgpt.com
 - **Web Scraping:** [Data nama tempat wisata dari halaman Kabupaten Badung pada website Dinas Pariwisata Provinsi Bali.
 ](https://disparda.baliprov.go.id/badung?utm_source=chatgpt.com)
 ### 3. Hasil Pengumpulan Data
