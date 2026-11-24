@@ -15,10 +15,10 @@ Eksplorasi Data Pariwisata Bali: Destinasi Wisata, Informasi Cuaca, dan Data Day
 Proyek ini bertujuan untuk melakukan pengumpulan, pembersihan, pengolahan, dan penggabungan data pariwisata Bali dari tiga sumber, yaitu Download, API, dan Web Scraping.
 
 ### 2. Sumber Data
-- **Download:** Data Daya Tarik Wisata Bali tahun 2024 dari Dinas Pariwisata Provinsi Bali.
-- **API:** Data cuaca Bali dari Open-Meteo Archive API.
-- **Web Scraping:** Data nama tempat wisata dari halaman Kabupaten Badung pada website Dinas Pariwisata Provinsi Bali.
-
+- **Download:** [Data Daya Tarik Wisata Bali tahun 2024 dari Dinas Pariwisata Provinsi Bali.](https://disparda.baliprov.go.id/?utm_source=chatgpt.com)
+- **API:** [Data cuaca Bali dari Open-Meteo Archive API.](https://archive-api.open-meteo.com/v1/archive)
+- **Web Scraping:** [Data nama tempat wisata dari halaman Kabupaten Badung pada website Dinas Pariwisata Provinsi Bali.
+](https://disparda.baliprov.go.id/badung?utm_source=chatgpt.com)
 ### 3. Hasil Pengumpulan Data
 - Data Download: 102 baris.
 - Data API: 31 baris.
