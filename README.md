@@ -1,59 +1,30 @@
-# UTS-DATA-ACQUISITION-MANAGEMENT-2501010235
 
-## Identitas Mahasiswa
+# Eksplorasi Data Pariwisata Bali
 
-- **Nama:** Fransiska Cerlis Oda
-- **Program Studi:** Informatika
-- **Angkatan:** 2025
-- **Semester:**3
+## Deskripsi
+Proyek ini mengumpulkan dan mengolah data pariwisata Bali dari tiga sumber:
+1. Data DTW dari file Excel.
+2. Data cuaca dari Open-Meteo API.
+3. Data wisata melalui teknik web scraping.
 
-## Judul Proyek
+## Jumlah Data
+- Data DTW: 102 baris.
+- Data scraping: 238 baris.
+- Data cuaca: 123 baris.
+- Data gabungan DTW dan scraping: 102 baris.
+- Nama DTW yang cocok pada proses penggabungan: 24.
 
-Eksplorasi Data Pariwisata Bali: Destinasi Wisata, Informasi Cuaca, dan Data Daya Tarik Wisata
+## Struktur Folder
+- data/raw/download: data Excel asli.
+- data/raw/api: data JSON dari API.
+- data/raw/scraping: data hasil scraping.
+- data/processed: data yang sudah diolah.
 
-### 1. Deskripsi Proyek
-Proyek ini bertujuan untuk melakukan pengumpulan, pembersihan, pengolahan, dan penggabungan data pariwisata Bali dari tiga sumber, yaitu Download, API, dan Web Scraping.
+## Pengolahan Data
+Data diperiksa untuk mengetahui data kosong dan duplikat.
+Penggabungan DTW dan scraping menggunakan metode left join.
 
-### 2. Sumber Data
-- **Download:** [Data Daya Tarik Wisata Bali tahun 2024 dari Dinas Pariwisata Provinsi Bali.](https://disparda.baliprov.go.id/?utm_source=chatgpt.com)
-- **API:**https://archive-api.open-meteo.com/v1/archive?latitude=-8.65&longitude=115.22&start_date=2026-10-01&end_date=2026-10-31&daily=temperature_2m_max,temperature_2m_min,precipitation_sum&timezone=Asia%2FMakassar&utm_source=chatgpt.com
-- **Web Scraping:** [Data nama tempat wisata dari halaman Kabupaten Badung pada website Dinas Pariwisata Provinsi Bali.
-](https://disparda.baliprov.go.id/badung?utm_source=chatgpt.com)
-### 3. Hasil Pengumpulan Data
-- Data Download: 102 baris.
-- Data API: 31 baris.
-- Data Web Scraping: 12 nama tempat wisata.
-
-### 4. Proses Pengolahan Data
-1. Mengumpulkan data dari tiga sumber.
-2. Membersihkan data dan memeriksa nilai kosong serta duplikat.
-3. Mengolah data menggunakan Python dan Pandas.
-4. Menggabungkan data Download dan Web Scraping berdasarkan nama tempat wisata.
-5. Membuat dokumentasi sumber data dan checklist etika data.
-
-### 5. Hasil Penggabungan
-Hasil penggabungan memperoleh 4 tempat wisata yang cocok, yaitu:
-- Pantai Kuta
-- Pantai Nusa Dua
-- Pantai Pandawa
-- Garuda Wisnu Kencana
-
-### 6. Tools dan Library
-- Google Colab
-- Python
-- Pandas
-- NumPy
-- Requests
-- BeautifulSoup
-
-### 7. Struktur Folder
-- `Data/Raw/Download`
-- `Data/Raw/API`
-- `Data/Raw/Scraping`
-- `Data/Processed`
-
-### 8. File Notebook
-Notebook utama: `UTS_Eksplorasi_Data_Pariwisata_Bali.ipynb`
-
-### 9. Tujuan
-Proyek ini dibuat untuk memenuhi tugas Ujian Tengah Semester mata kuliah Data Acquisition and Management.
+## Sumber Data
+- Data DTW: Dinas Pariwisata Provinsi Bali.
+- Data cuaca: Open-Meteo Archive API.
+- Data scraping: sumber informasi pariwisata Bali.
