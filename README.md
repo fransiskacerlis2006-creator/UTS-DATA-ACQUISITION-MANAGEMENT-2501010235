@@ -11,14 +11,16 @@
 
 ## 2. Deskripsi Proyek
 Proyek ini bertujuan untuk melakukan akuisisi dan pengelolaan data pariwisata Bali melalui beberapa sumber data, yaitu data daya tarik wisata, data hasil scraping informasi wisata, dan data cuaca.
-## 3. Sumber Data
+## 3. Sumber Data dan Link Referensi
 
-| No. | Nama Dataset | Sumber | Link Sumber |
-|:---:|---|---|---|
-| 1 | Data Daya Tarik Wisata (DTW) | Dinas Pariwisata Provinsi Bali | [Klik di sini](https://disparda.baliprov.go.id/daya-tarik-wisata) |
-| 2 | Data Wisata Badung | Dinas Pariwisata Provinsi Bali | [Klik di sini](https://disparda.baliprov.go.id/badung) |
-| 3 | Data Informasi Wisata Bali | Direktori Pariwisata | [Klik di sini](https://www.direktoripariwisata.id/kawasan/prov/Bali) |
-| 4 | Data Cuaca Bali | Open-Meteo Archive API | [Klik di sini](https://archive-api.open-meteo.com/v1/archive) |
+| No. | Nama Data | Sumber Data | Link |
+|---|---|---|---|
+| 1 | Data Daya Tarik Wisata (DTW) | Dinas Pariwisata Provinsi Bali | https://disparda.baliprov.go.id/daya-tarik-wisata |
+| 2 | Data Wisata Badung | Dinas Pariwisata Provinsi Bali | https://disparda.baliprov.go.id/badung |
+| 3 | Data Informasi Wisata | Direktori Pariwisata | https://www.direktoripariwisata.id/kawasan/prov/Bali |
+| 4 | Data Cuaca | Open-Meteo Archive API | https://archive-api.open-meteo.com/v1/archive |
+
+**Keterangan:** Data dikumpulkan melalui proses pengunduhan, web scraping, dan pengambilan data menggunakan API. Selanjutnya data dibersihkan dan diolah menggunakan Python di Google Colab.
 
 **Metode pengumpulan data:**
 1. Download data Excel.
